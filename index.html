@@ -3,35 +3,8 @@
     <head>
         <title>Full Forms</title>
         <link type="text/css" media="screen" href="themes/css/jqtouch.css" rel="stylesheet" />
-        <style type="text/css" media="screen">
-            .edgetoedge li a .preview, .edgetoedge li a .subject {
-                display: block;
-                color: #999;
-                font-size: 12px;
-                font-weight: normal;
-            }
-            .edgetoedge li a .subject {
-                color: #000;
-                font-size: 14px;
-            }
-            
-.expansion{
-	color: #53B401;
-    font: 16px/16px "Helvetica Neue",Helvetica;
-    overflow: hidden;
-    padding: 2px 8px 4px;
-    position: relative;
-    text-align: right;
-    text-overflow: ellipsis;
-}
+        <link type="text/css" media="screen" href="css/style.css" rel="stylesheet" />
 
-
-#jqt ul.plastic li.sep{
-	background-color: #53B401;
-	color: #fff;
-}
-
-        </style>
         <script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
         <script src="js/jqtouch.js" type="text/javascript" charset="utf-8"></script>
         <script src="js/application.js" type="text/javascript" charset="utf-8"></script>
@@ -39,19 +12,25 @@
 
     </head>
     <body>
+    	<div class="nav-bar" style="visibility: hidden">
+    		<ul>
+    			<li><a class="about" href="#screen-b">About</a></li>
+    			<li><a class="slideleft" href="#categories-page">Categories</a></li>
+    			<li><a class="slideleft" href="#alphaindex-page">Alphabetical Index</a></li>
+    		</ul>
+    	</div>    	
         <div id="jqt">
             <div id="home-page" class="edgetoedge">
                 <div id="ffl" class="toolbar">
                     <h1>Full Forms</h1>
-		            <a class="button leftButton" class="about" href="#screen-b">About</a>
-		            <a class="button categories slideleft" href="#categories-page">Categories</a>
+		            <div class="nav-bar"></div>
     			</div>
             </div>
             <div id="categories-page" class="edgetoedge">
                 <div class="toolbar">
+                	<a class="button leftButton" class="about" href="#home-page">Home</a>
                     <h1>Categories</h1>
-		            <a class="button leftButton" class="about" href="#screen-b">About</a>
-		            <a class="button slideleft" href="#home-page">Full Form List</a>
+		            <div class="nav-bar"></div>
     			</div>     
     			<ul class="plastic">
     				<li><a href="#home-page">All</a></li>
@@ -70,17 +49,51 @@
     				<li><a href="#home-page">Chemical</a></li>
     			</ul>       	
             </div>
+            <div id="alphaindex-page" class="edgetoedge">
+                <div class="toolbar">
+                    <h1>Alphabetical Index-</h1>
+                	<a class="button leftButton" class="about" href="#home-page">Home</a>
+		            <div class="nav-bar"></div>
+    			</div>     
+    			<div class="tabular">
+    				<div class="tabular-row">
+	    				<div class="tabular-cell"><a href="#home-page">A</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">B</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">C</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">D</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">E</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">F</a></div>
+    				</div>
+    				<div class="tabular-row">
+	    				<div class="tabular-cell"><a href="#home-page">G</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">H</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">I</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">J</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">K</a></div>
+    				</div>
+    				<div class="tabular-row">
+	    				<div class="tabular-cell"><a href="#home-page">L</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">M</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">N</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">O</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">P</a></div>
+    				</div>
+    				<div class="tabular-row">
+	    				<div class="tabular-cell"><a href="#home-page">Q</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">R</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">S</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">T</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">U</a></div>
+    				</div>
+    				<div class="tabular-row">
+	    				<div class="tabular-cell"><a href="#home-page">V</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">W</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">X</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">Y</a></div>
+	    				<div class="tabular-cell"><a href="#home-page">Z</a></div>
+    				</div>
+    			</div>       	
+            </div>            
         </div>
-        <!--
-		<div id="other">
-		    <div class="tabbar">
-		        <ul>
-		            <li class="two"><a href="first.html">first tab</a></li>
-		            <li class="two"><a href="two.html">second tab</a></li>
-		            <li class="two"><a href="two.html">third tab</a></li>
-		        </ul>
-		    </div>
-		</div>    
-		-->    
     </body>
 </html>

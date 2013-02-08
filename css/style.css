@@ -1,0 +1,69 @@
+.edgetoedge li a .preview, .edgetoedge li a .subject {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+}
+.edgetoedge li a .subject {
+    color: #000;
+    font-size: 14px;
+}
+            
+.expansion{
+	color: #53B401;
+    font: 16px/16px "Helvetica Neue",Helvetica;
+    overflow: hidden;
+    padding: 2px 8px 4px;
+    position: relative;
+    text-align: right;
+    text-overflow: ellipsis;
+}
+
+
+#jqt ul.plastic li.sep{
+	background-color: #53B401;
+	color: #fff;
+}
+
+#jqt .toolbar{padding-bottom: 0px;height:80px;}
+
+#jqt .toolbar > h1{bottom: auto}
+.nav-bar{position:absolute; bottom: 0px; left: 0px;width: 100%;height: 40px;}
+
+.nav-bar ul{
+    display: table;
+    table-layout: fixed;
+    width:100%;	
+    padding: 0px;
+    margin: 0px !important;
+}
+
+.nav-bar ul li{
+	display: table-cell;
+	border-right: 1px solid #48494B;
+	text-align: center;
+}
+
+div.tabular{
+    display: table;
+    table-layout: fixed;
+    width:100%;	
+    border-spacing:10px;
+}
+div.tabular-row {display: table-row;}
+div.tabular-cell { 
+	display: table-cell;
+	border: 1px solid #48494B;
+	text-align: center;
+	padding: 10px;
+	background-color: #48494B;
+	color: #fff;
+}
+div.tabular-cell a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#jqt .leftButton, #jqt .cancel, #jqt .back{
+	top: 5px;
+}

@@ -4,8 +4,8 @@
 
 Zepto(function($){
 	var jqtouch = $.jQTouch({
-	    //icon: 'mail.png',
 	});
+	setNavBar();
 
 	getFullFormList("All");
 
@@ -14,10 +14,13 @@ Zepto(function($){
 		getFullFormList($(this).text());
 	}); 
 	    
-    $('#home ul a, #mailbox ul a').click(function(){
-        $( $(this).attr('href') + ' h1' ).html($(this).html());
-    });
+
 });
+
+function setNavBar(){
+	navbar = $(".nav-bar").html();
+	$("#jqt .nav-bar").html(navbar);
+}
 
 function getFullFormList(category){
 	$("#home-page .plastic").remove()
@@ -48,6 +51,4 @@ function getFullFormList(category){
 	
     ffHTML += '</ul>'
 	$(ffHTML).insertAfter($('#ffl'))
-	
-//	return ffHTML;
 }
